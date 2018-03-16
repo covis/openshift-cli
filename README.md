@@ -61,7 +61,7 @@ Below a sample job in an `.gitlab-ci.yml` file, please note that OpenShift does
 not allow `_` in project names:
 
     deploy:
-      image: widerin/openshift-cli
+      image: covis/openshift-cli
       stage: deploy
       script:
         - oc login "$OPENSHIFT_SERVER" --token="$OPENSHIFT_TOKEN"
