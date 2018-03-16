@@ -2,8 +2,8 @@ FROM covis/alpine-glibc:latest
 
 MAINTAINER Sebastian Wegert <swe@covis.de>
 
-ENV OC_VERSION=v3.7.2 \
-    OC_TAG_SHA=282e43f \
+ENV OC_VERSION=v3.9.0-alpha.3 \
+    OC_TAG_SHA=78ddc10 \
     BUILD_DEPS='tar gzip' \
     RUN_DEPS='curl ca-certificates gettext'
 
